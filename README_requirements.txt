@@ -43,9 +43,8 @@ Validate Tshark using the command: tshark --version
 	- sudo apt install python3 python3-pip tshark -y
 2. Go to the directory the tool is located using the "cd" command
 3. Open a terminal in the root directory and run:
-	- chmod +x run.sh
-	./run.sh
-This command runs a script which creates a virtual environment, installs needed dependencies and then launches the tool
+	- python main.py
+Or alternatively the main.py can be ran from a code editor like Visual Studio Code
 --------------------------------------------------------------------------------------
 Usage:
 Simply run the tool, add your PCAP file when prompted.
